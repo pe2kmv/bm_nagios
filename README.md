@@ -30,7 +30,7 @@ define command{
 ```
 Now the command is available to be included in a server configuration file. Use the example below to check the connection of a specific repeater  to a predetermined master (**remove the square brackets from this example!**):
 ```
-check_command           check_brandmeister_con!http://[MASTER_SERVER_URL]/status/monitor.php![REPEATER_CALLSIGN]
+check_command           check_brandmeister_con!http://[MASTER_SERVER_URL]/status/status.php![REPEATER_CALLSIGN]
 ```
 
 ## The small printed stuff
